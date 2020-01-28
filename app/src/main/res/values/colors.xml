@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9BE466</color>
+    <color name="colorPrimaryDark">#003300</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+    <color name="item_color">#EDEDED</color>
+    <color name="black_tin">#99000000</color>
+    <color name="black_gone">#26000000</color>
+    <color name="btc">#FF9900</color>
+    <color name="eth">#1F407A</color>
+    <color name="liteColorPrimaryDark">#33003300</color>
+    <color name="others_tin">#999BE466</color>
+    <!--FF4081-->
+</resources>

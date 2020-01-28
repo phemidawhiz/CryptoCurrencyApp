@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_margin="2dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="2dp">
+    <RelativeLayout
+        android:id="@+id/host_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <!--get id position-->
+        <TextView
+            android:id="@+id/id_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/cash_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <RelativeLayout
+            android:id="@+id/crypto_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/ic_crypto"
+                android:layout_width="@dimen/arrow_size"
+                android:layout_height="@dimen/arrow_size"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"/>
+            <TextView
+                android:id="@+id/crypto_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_tin"
+                android:textSize="@dimen/select_size"
+                android:padding="10dp"
+                tools:text="Crypto"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/crypto_colour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/crypto_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+            <ImageView
+                android:id="@+id/crypto_colour_up"
+                android:layout_width="@dimen/arrow_size"
+                android:layout_height="@dimen/arrow_size" />
+            <ImageView
+                android:id="@+id/crypto_colour_down"
+                android:layout_width="@dimen/arrow_size"
+                android:layout_height="@dimen/arrow_size"
+                android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_tin"
+            android:textSize="@dimen/select_size"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/crypto_colour"
+            android:padding="10dp"
+            android:maxLines="1"
+            tools:text="Country"/>
+
+        <TextView
+            android:id="@+id/country_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_tin"
+            android:textSize="@dimen/select_size"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/country_name"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            tools:text="499,000"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

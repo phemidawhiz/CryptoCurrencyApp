@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/settings"
+    android:textColor="@color/black_tin"
+    android:textSize="@dimen/select_display"
+    android:padding="5dp"/>

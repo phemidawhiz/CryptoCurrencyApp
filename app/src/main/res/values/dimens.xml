@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="app_bar_height">120dp</dimen>
+    <dimen name="screen_padding">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="title_size">15sp</dimen>
+    <dimen name="select_size">10sp</dimen>
+    <dimen name="select_display">12sp</dimen>
+    <dimen name="arrow_size">12dp</dimen>
+    <dimen name="display_arrow">15dp</dimen>
+    <dimen name="edit_size">20dp</dimen>
+    <dimen name="edit_text">15sp</dimen>
+    <dimen name="display_text">20sp</dimen>
+    <dimen name="btn">18sp</dimen>
+    <dimen name="logo_size">65dp</dimen>
+</resources>
